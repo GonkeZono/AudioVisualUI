@@ -1,26 +1,27 @@
 /**
- * UI全体で使用するアイコンライブラリを指定します、E
+ * UI全体で使用するアイコンライブラリを指定します。
  *
- * 設定できる値�E�E
- * - "material"    �E�① 標準案。一般皁E��刁E��りやすいシルエチE��アイコン
- * - "fontawesome" �E�② 強調案。太く、視認性の高いシルエチE��アイコン
- * - "fluent"      �E�③ モダン案、Eicrosoft Fluent系のモダンなアイコン
- * - "lucide"      �E�④ 線画案。現在のUIで使用してぁE��細線アイコン
+ * 設定できる値:
+ * - "material"    一般的、見やすいシルエットのアイコン
+ * - "fontawesome" 強調系、太く視認性の高いシルエットのアイコン
+ * - "fluent"      モダン系、Microsoft Fluent 系のモダンなアイコン
+ * - "lucide"      線画系、現在の UI で使用している細線アイコン
  */
+
 export type IconTheme =
-  | "lucide" //原桁E
-  | "fluent" //モダン
-  | "material" //一般皁E
-  | "fontawesome" //強調
-  | "tabler"; //新しい太線モダン
+  | "lucide"      // 線画
+  | "fluent"      // モダン
+  | "material"    // 一般的
+  | "fontawesome" // 強調
 
 /**
- * 現在表示するアイコンパターンを指定します、E
+ * 現在表示するアイコンパターンを指定します。
  *
- * 以下�E値を書き換えて保存すると、E
- * AppIconを使用してぁE��画面のアイコンが一括で刁E��替わります、E
+ * 以下の値を書き換えて保存すると、
+ * AppIcon を使用している画面のアイコンが一括で切り替わります。
  *
- * 現在の設定！E
- * ⑤ 太線モダン案！Eabler�E�E
+ * 現在の設定:
+ * material
  */
+
 export const ICON_THEME: IconTheme = "material";

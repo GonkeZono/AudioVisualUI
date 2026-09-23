@@ -8,7 +8,6 @@ const themes: { key: IconTheme; label: string; caption: string }[] = [
   { key: "fontawesome", label: "強調", caption: "太く、視認性の高い強調スタイル" },
   { key: "fluent", label: "モダン", caption: "Microsoft Fluent 系の滑らかなデザイン" },
   { key: "lucide", label: "線画", caption: "細い線で軽やかな見え方" },
-  { key: "tabler", label: "太線モダン", caption: "太い線と明瞭な形状" },
 ];
 
 const iconTypes = [
